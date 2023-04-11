@@ -1,0 +1,7 @@
+{
+  "methods": {
+    "NFTSellOffers": "nft_sell_offers",
+    "accountNFTs": "account_nfts",
+    "NFTBuyOffers": "nft_buy_offers"
+  }
+}

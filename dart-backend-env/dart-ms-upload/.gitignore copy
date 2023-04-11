@@ -1,0 +1,9 @@
+src/logs
+node_modules
+.env
+coverage
+logs
+.nyc_output
+package.json
+package-lock.json
+src/app/swagger

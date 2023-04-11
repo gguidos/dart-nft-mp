@@ -1,0 +1,22 @@
+{
+	"auth": {
+		"username": "required|string|min:2|max:25",
+		"password": "string|required"
+	},
+	"post": {
+		"email": "email|required",
+		"name": "string|required",
+		"password": "string|required",
+		"username": "required|string|min:2|max:25"
+	},
+	"put": {
+		"name": "string",
+		"usernameHash": "required|string",
+		"pictureUrl": "string|min:15",
+		"xrpWallet": "string",
+		"xrpTag": "string",
+		"NFTTokenMinter": "string",
+		"role": "string",
+		"contactPhone": "string"
+	}
+}

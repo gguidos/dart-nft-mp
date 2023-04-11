@@ -1,0 +1,9 @@
+POST http://localhost:3005/api/v1/user/registration
+content-type: application/json
+
+{
+    "name": "guidog",
+    "username": "guidog",
+    "email":"garneau9993@mynamejewel.com",
+    "password": "asdf"
+}

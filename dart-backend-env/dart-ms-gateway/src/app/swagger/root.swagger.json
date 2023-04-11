@@ -1,0 +1,23 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "test-project",
+    "description": "test-project description",
+    "contact": {
+      "name": "guidog",
+      "email": "someone@somewhere.com"
+    }
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "http"
+  ],
+  "servers": [],
+  "basePath": "/api"
+}

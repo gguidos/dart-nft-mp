@@ -1,0 +1,36 @@
+{
+	"registration": {
+		"endpointConfig": {
+			"allowedHosts": [1]
+		},
+		"rules": {
+			"email": "email|required",
+			"name": "string|required",
+			"password": "string|required",
+			"username": "required|string|min:2|max:25"
+		}
+	},
+	"auth": {
+		"endpointConfig": {
+			"allowedHosts": [1]
+		},
+		"rules": {
+			"username": "required|string|min:2|max:25",
+			"password": "string|required"
+		}
+	},
+	"update": {
+		"endpointConfig": {
+			"allowedHosts": [1]
+		},
+		"rules": {
+			"name": "string",
+			"pictureUrl": "string|min:15",
+			"xrpWallet": "string",
+			"xrpTag": "string",
+			"role": "string",
+			"contactPhone": "string",
+			"NFTokenMinter": "string"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "registration": {
+    "ip": "string|required",
+    "hostname": "string|required",
+    "createdBy": "string|required"
+  }
+}

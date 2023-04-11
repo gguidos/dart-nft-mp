@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"inlineSourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"outDir": "build",
+		"rootDir": "src",
+		"types": ["node", "express", "mocha", "jest"]
+	},
+	"exclude": [
+		"node_modules",
+		"build",
+		"src/app/public",
+		"setup-env.js",
+		"src/app/**/*.json",
+		"coverage",
+		"src/__test__/**./*.spec.ts"
+	]
+}

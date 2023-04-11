@@ -1,0 +1,65 @@
+[
+	{
+		"name": "vesuvio",
+		"description": "tomatoe sauce, cheese, ham",
+		"price": 85,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "funghi",
+		"description": "tomatoe sauce, cheese, fresh funghi",
+		"price": 85,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "capricciosa",
+		"description": "tomatoe sauce, cheese, fresh funghi, ham",
+		"price": 90,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "siciliana",
+		"description": "tomatoe sauce, cheese, anchovies, capris, fresh garlic",
+		"price": 95,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "parma",
+		"description": "tomatoe sauce, mozarella, parma, marinated sundried tomatoes, funghi, artichoke",
+		"price": 120,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "pigale",
+		"description": "tomatoe sauce, cheese, ham, gambas",
+		"price": 95,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "marinera",
+		"description": "tomatoe sauce, cheese, gambas, tuna",
+		"price": 98,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "hawaii",
+		"description": "tomatoe sauce, cheese, ham, pineapple",
+		"price": 90,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	},
+	{
+		"name": "margarita",
+		"description": "Tomato sauce, cheese ",
+		"price": 98,
+		"createdBy": "Kalle Kocken",
+		"modifiedBy": "Kalle Kocken"
+	}
+]

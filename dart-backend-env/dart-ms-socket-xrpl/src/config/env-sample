@@ -1,0 +1,11 @@
+NODE_ENV = development
+NAME = DART-XRPL-SOCKET-SERVICE
+NODE_PORT = 3007
+NODE_HOST = http://localhost:5000/
+NODE_FE_HOST = http://localhost:8080/
+TEST_URL = http://localhost
+NODE_LOG_PATH = ./logs
+
+RIPPLE_XLS20_URL = wss://xls20-sandbox.rippletest.net:51233
+RIPPLE_XLS20_ACCOUNT =
+RIPPLE_XLS20_SECRET =

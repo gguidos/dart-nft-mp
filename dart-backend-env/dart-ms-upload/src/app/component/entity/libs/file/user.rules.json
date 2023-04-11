@@ -1,0 +1,12 @@
+{
+	"auth": {
+		"username": "required|string|min:2|max:25",
+		"password": "string|required"
+	},
+	"post": {
+		"email": "email|required",
+		"name": "string|required",
+		"password": "string|required",
+		"username": "required|string|min:2|max:25"
+	}
+}

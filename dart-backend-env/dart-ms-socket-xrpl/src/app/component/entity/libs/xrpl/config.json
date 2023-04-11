@@ -1,0 +1,13 @@
+{
+  "NFTokenCreateOffer": {
+    "TransactionType": "NFTokenCreateOffer"
+  },
+  "NFTokenMint": {
+    "TransactionType": "NFTokenMint",
+    "Flags": 8,
+    "NFTokenTaxon": 0
+  },
+  "NFTokenAcceptOffer": {
+    "TransactionType": "NFTokenAcceptOffer"
+  }
+}

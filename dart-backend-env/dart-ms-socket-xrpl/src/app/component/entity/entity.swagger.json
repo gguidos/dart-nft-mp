@@ -1,0 +1,78 @@
+{
+	"api/v1/example": {
+		"get": {
+			"summary": "Get - example",
+			"description": "Example endpoint documentation",
+			"tags": ["example"],
+			"parameters": [
+				{
+					"name": "id",
+					"in": "query",
+					"type": "integer",
+					"description": "Id of the post",
+					"example": 1,
+					"required": false,
+					"maxLength": 64
+				}
+			],
+			"responses": {
+				"200": {
+					"description": "Successful insert operation"
+				},
+				"400": {
+					"description": "Parameters related errors (Wrong used params, missing obligatory params, conflicting params)"
+				}
+			}
+		},
+		"post": {
+			"summary": "Post - example",
+			"description": "Example endpoint documentation",
+			"tags": ["example"],
+			"parameters": [
+				{
+					"name": "name",
+					"in": "body",
+					"type": "string",
+					"description": "name of the dish",
+					"example": "new",
+					"required": true,
+					"maxLength": 25
+				},
+				{
+					"name": "description",
+					"in": "body",
+					"type": "array",
+					"description": "Ingredients of the dish",
+					"example": "['Cheese','Tomato sauce','Funghi']",
+					"required": true
+				},
+				{
+					"name": "createdBy",
+					"in": "body",
+					"type": "string",
+					"description": "Creator of the post",
+					"example": "Kalle Kocken",
+					"required": true,
+					"maxLength": 50
+				},
+				{
+					"name": "modifiedBy",
+					"in": "body",
+					"type": "string",
+					"description": "Creator of the post",
+					"example": "Kalle Kocken",
+					"required": true,
+					"maxLength": 50
+				}
+			],
+			"responses": {
+				"200": {
+					"description": "Successful insert operation"
+				},
+				"400": {
+					"description": "Parameters related errors (Wrong used params, missing obligatory params, conflicting params)"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+PUT http://localhost:3005/api/v1/user
+content-type: application/json
+
+{
+    "usernameHash": "abc2e32b7e395bf3064d53bf5b1dea69",
+    "username": "guidog",
+    "role": "admin" 
+}

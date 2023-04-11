@@ -1,0 +1,8 @@
+POST http://localhost:3005/api/v1/admin/consumer/registration
+content-type: application/json
+
+{
+    "hostname": "localhost2",
+    "ip": "127.0.0.1",
+    "createdBy": "guidog"
+}
